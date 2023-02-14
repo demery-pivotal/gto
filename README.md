@@ -24,5 +24,6 @@ It creates a directory called `results` and writes:
 - `gto` currently offers no CLI options. It would be nicer if it offered
   options to specify the input file and the output directory.
 - `gto` reads only the `output.bin` file, which knows classes and methods only
-  by numeric IDs. It would be nicer if it detected the `output.bin.idx` file
-  (if it exists) and used that to name its class and method directories.
+  by numeric IDs. It would be nicer if it detected the `results.bin` file
+  (if it exists) and used the information there to name its class and method
+  directories.
